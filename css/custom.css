@@ -1,0 +1,102 @@
+body {
+	background: #e96443; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#888488,
+		#e9a74354
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #88522e, #e9a74354);
+
+	/* background: url("../images/photo-3.jpg") center/cover no-repeat; ako sakame samo ovaa slika da e na site strani*/
+}
+.navbar-brand {
+	font-size: 1.6rem;
+}
+.sitename {
+	color: white;
+	font-family: cursive;
+	font-weight: 300;
+}
+.sitename span {
+	color: #d9534f !important;
+	font-weight: 700;
+}
+thead {
+	color: white;
+}
+.card {
+	position: relative;
+}
+.card .favorite-btn {
+	position: absolute;
+	right: -18px;
+	top: 18px;
+	background-color: rgb(255, 255, 255);
+	width: 35px !important;
+	height: 35px;
+	border-radius: 50%;
+	font-size: 22px;
+	padding-left: 10px;
+	color: #29abe0;
+}
+
+.is-favorite {
+	background-color: #29abe0 !important;
+	color: white !important;
+}
+
+h1 {
+	/* font-family: "Raleway", sans-serif; */
+	font-family: cursive;
+	font-weight: 300;
+	font-size: 1.6rem;
+}
+.card-title {
+	font-family: cursive;
+	font-weight: 300;
+	font-size: 1.2rem;
+}
+.btn {
+	width: 100%;
+}
+footer p {
+	color: white !important;
+}
+
+.jumbotron {
+	background: rgba(255, 255, 229, 0.8);
+}
+.jumbotron:hover {
+	position: relative;
+	top: -0.1px;
+	right: -1px;
+}
+
+.text-center {
+	/* font-family: "Raleway", sans-serif; */
+	font-family: cursive;
+	font-weight: 501;
+	font-size: 1.6rem;
+}
+
+.btn.btn-success.d-block {
+	background-color: #ff9d2d;
+	font-size: 1em;
+	font-family: cursive;
+}
+
+label {
+	font-family: cursive;
+}
+
+.siteName-footer {
+	color: white;
+	font-family: cursive;
+	font-weight: 300;
+}
+
+.siteName-footer span {
+	color: #d9534f !important;
+	font-weight: 700;
+}
+
